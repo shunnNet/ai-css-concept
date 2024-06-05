@@ -26,7 +26,7 @@ The class name `ai-[description]` is kind of prompt. You can just describe your 
 
 ## Try it
 > [!WARNING] 
-> Will use many token. Consider turn off `VSCode UnoCss plugin` and `Auto Save`, or it will generate new CSS every time you type a class name
+> Will use many token. Consider turn off `VSCode UnoCSS plugin` and `Auto Save`, or it will generate new CSS every time you type a class name
 
 1. Clone this repository
 
@@ -37,3 +37,10 @@ The class name `ai-[description]` is kind of prompt. You can just describe your 
 4. Start the demo by: `pnpm dev`
 
 5. Go to `http://localhost:5173` to check results.
+
+## How to write the class ?
+Write a class name start with `ai-` then write a graphic description.
+
+e.g: `ai-a-red-circle-blinking-per-1s` or `ai-aRedCircleBlinkingPerSecond`
+
+You can write anything you want, you can also combine with `UnoCSS` utility class.
